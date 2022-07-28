@@ -1,0 +1,38 @@
+.title {
+  color: red;
+}
+
+.container {
+  background-color: blue;
+  color: #fff;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.color-title {
+  background-color: green;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.big-size {
+  padding: 40px;
+}
+
+.title-form {
+  padding-left: 120px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+}
+
+.list {
+  border: 1px solid #000;
+  font-size: 25px;
+}
+
+.footer {
+  margin-bottom: 150px;
+}

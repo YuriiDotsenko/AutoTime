@@ -58,10 +58,7 @@ body {
 
 .wrapper {
   display: flex;
-}
-
-.offer {
-  margin-top: 153px;
+  align-items: center;
 }
 
 .title {
@@ -130,9 +127,13 @@ body {
   font-size: 19px;
 }
 
+.benefits {
+  width: 289px;
+}
+
 .text {
   text-align: center;
-  width: 320px;
+
   font-weight: 400;
 }
 
@@ -176,4 +177,99 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .offer {
+    width: 100%;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .benefits-icon {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .benefits-icon {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .benefits:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .learn {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mail {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .desctop {
+    width: 300px;
+  }
+
+  .benefits-icon {
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
